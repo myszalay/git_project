@@ -32,11 +32,15 @@ git log -oneline
 ### Ignore log files
 *.log
 
-# Ignore temp folders
+### Ignore temp folders
 temp/ 
  
 *.tmp      # all .tmp files
 my?ile.txt # matches my1ile.txt, myAile.txt, etc.
 log[0-9].txt # log1.txt, log2.txt, ... log9.txt 
 
+### Global .gitignore (User Level)
 
+You can set up a global .gitignore file for all your projects. This is great for ignoring OS or editor files everywhere (like .DS_Store or Thumbs.db):
+
+git config --global core.excludesfile ~/.gitignore_global
