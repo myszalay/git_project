@@ -26,3 +26,17 @@ git commit -m "A new README file has been created for the project."
 git log
 git log -oneline
 
+## Git ignore
+.gitignore
+
+### Ignore log files
+*.log
+
+# Ignore temp folders
+temp/ 
+ 
+*.tmp      # all .tmp files
+my?ile.txt # matches my1ile.txt, myAile.txt, etc.
+log[0-9].txt # log1.txt, log2.txt, ... log9.txt 
+
+
