@@ -2,7 +2,7 @@
 git –-version 
 
 ## BASIC SETTINGS
-git config --global user.name "lszalay"
+git config --global user.name "szalay"
 git config --global user.email ”lszalay@rocketsoftware.com"
 git config --global init.defaultBranch main
 git config --global core.editor "code --wait"
